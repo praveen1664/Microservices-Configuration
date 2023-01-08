@@ -1,0 +1,11 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    registry-fetch-interval-seconds: 30
+    refresh:
+      enable: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
