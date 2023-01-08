@@ -1,6 +1,6 @@
 spring:
   application:
-    name: config-prod
+    name: Config-Prod
 eureka:
   instance:
     prefer-ip-address: true
