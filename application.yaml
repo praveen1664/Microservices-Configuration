@@ -8,4 +8,4 @@ eureka:
     refresh:
       enable: true
     service-url:
-      defaultZone: https://serviceregitsry-production.up.railway.app/
+      defaultZone: https://serviceregitsry-production.up.railway.app/eureka
