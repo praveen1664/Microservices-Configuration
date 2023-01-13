@@ -3,7 +3,8 @@ spring:
     name: Config-Prod
 eureka:
   instance:
-    prefer-ip-address: true
+#     prefer-ip-address: true
+    hostname: peer1
   client:
     register-with-eureka: true
     fetch-registry: true
